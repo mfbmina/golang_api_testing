@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test_TestAPI(t *testing.T) {
+func Test_APItest(t *testing.T) {
 	j, err := json.Marshal(RespBody{Results: []Pokemon{{Name: "Charizard"}}})
 	assert.Nil(t, err)
 
